@@ -294,7 +294,7 @@ public class UpdateProjectStatus extends PageObjectBase
 		testReport.appendtestData(overallTestData);
 		testReport.closeStepTable();
 		testReport.closeTestHTML(overallTestData);
-		driver.close();
+		//driver.close();
 		try {
 			testReport.writeTestReporthtml(overallTestData, "UpdateProjectStatus");
 		} catch (IOException e) {

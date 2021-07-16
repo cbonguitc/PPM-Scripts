@@ -247,7 +247,7 @@ public class Node_Activity__CreateProjectFromTemplate_ extends PageObjectBase
 	testReport.fillTableStep("Step 14", "click SaveContinue button CreateProjects popup");
 
 	createprojects_page_init.click_SaveContinue_button();
-	Thread.sleep(10000);
+	Thread.sleep(12000);
 	//driver.findElement(By.xpath("//*[contains(@id,'PrjFndProjectDefinitionPage:cb_done')]")).wait(5000);
 	driver.findElement(By.xpath("//*[contains(@id,'PrjFndProjectDefinitionPage:cb_done')]")).click();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__CreateProjectFromTemplate_","Step_14");

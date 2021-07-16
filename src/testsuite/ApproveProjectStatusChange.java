@@ -304,7 +304,7 @@ public class ApproveProjectStatusChange extends PageObjectBase
 		testReport.appendtestData(overallTestData);
 		testReport.closeStepTable();
 		testReport.closeTestHTML(overallTestData);
-		driver.close();
+		//driver.close();
 		try {
 			testReport.writeTestReporthtml(overallTestData, "ApproveProjectStatusChange");
 		} catch (IOException e) {

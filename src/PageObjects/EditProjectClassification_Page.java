@@ -37,7 +37,7 @@ public void click_EditProjectClassification_button(){
 		EditProjectClassification_button.click();
 }
 
-@FindBy(how= How.XPATH, using = "//*[contains(@id,'iclov1::content')]")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'AT1:_ATp:table2:0:iclov1_csl:sis1:is1::content')]")
 	public static WebElement ClassCode_textbox;
 
 public void verify_ClassCode_textbox(String data){

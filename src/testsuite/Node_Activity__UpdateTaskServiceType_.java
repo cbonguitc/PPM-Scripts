@@ -366,7 +366,7 @@ public class Node_Activity__UpdateTaskServiceType_ extends PageObjectBase
 
 	testReport.fillTableStep("Step 32", "Fill EditTaskDetails form EditTaskDetails popup");
 	Thread.sleep(5000);
-	edittaskdetails_page_init.select_TaskNum_dropdown(Step_32_TaskNum_dropdown_DROPDOWN);
+	//edittaskdetails_page_init.select_TaskNum_dropdown(Step_32_TaskNum_dropdown_DROPDOWN);
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateTaskServiceType_","Step_32");
 
 	Reporter.log("Step - 33- Fill Setup form EditTaskDetails popup");
@@ -380,6 +380,8 @@ public class Node_Activity__UpdateTaskServiceType_ extends PageObjectBase
 
 	testReport.fillTableStep("Step 34", "click SaveAndClose button EditTaskDetails popup");
 	Thread.sleep(5000);
+	driver.findElement(By.xpath("//*[contains(@id,'cb2')]")).click();
+	Thread.sleep(10000);
 	edittaskdetails_page_init.click_SaveAndClose_button();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateTaskServiceType_","Step_34");
 	}

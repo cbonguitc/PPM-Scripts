@@ -255,7 +255,7 @@ public class ProjectNumber____68_ extends PageObjectBase
 		testReport.appendtestData(overallTestData);
 		testReport.closeStepTable();
 		testReport.closeTestHTML(overallTestData);
-		driver.close();
+		//driver.close();
 		try {
 			testReport.writeTestReporthtml(overallTestData, "ProjectNumber____68_");
 		} catch (IOException e) {

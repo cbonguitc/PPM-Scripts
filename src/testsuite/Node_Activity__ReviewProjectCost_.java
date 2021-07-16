@@ -222,8 +222,8 @@ public class Node_Activity__ReviewProjectCost_ extends PageObjectBase
 	testReport.fillTableStep("Step 13", "Fill Search form ManageProjectCosts screen");
 	Thread.sleep(5000);
 	//manageprojectcosts_page_init.set_ProjectName_textbox(Step_13_ProjectName_textbox_TEXTBOX);
-	//manageprojectcosts_page_init.set_ProjectNumber_textbox(Step_13_ProjectNumber_textbox_TEXTBOX);
-	manageprojectcosts_page_init.set_ExpenditureOrg_textbox(Step_13_ExpenditureOrg_textbox_TEXTBOX);
+	manageprojectcosts_page_init.set_ProjectNumber_textbox(Step_13_ProjectNumber_textbox_TEXTBOX);
+	//manageprojectcosts_page_init.set_ExpenditureOrg_textbox(Step_13_ExpenditureOrg_textbox_TEXTBOX);
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__ReviewProjectCost_","Step_13");
 
 	Reporter.log("Step - 14- click SearchBtn button ManageProjectCosts screen");
@@ -260,7 +260,7 @@ public class Node_Activity__ReviewProjectCost_ extends PageObjectBase
 	testReport.fillTableStep("Step 17", "click ViewAccounting button ExpenditureItem screen Costing tab");
 	Thread.sleep(5000);
 	//expenditureitem_page_init.click_ViewAccounting_button();
-	driver.findElement(By.xpath("//button[contains(@id,'g::cancel')]")).click(); //OK
+	//driver.findElement(By.xpath("//button[contains(@id,'g::cancel')]")).click(); //OK
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__ReviewProjectCost_","Step_17");
 
 	Reporter.log("Step - 18- Mouseover Account1 mouseoverchoice ExpenditureItem screen ViewAccounting menubar Accounts menu");
@@ -279,7 +279,7 @@ public class Node_Activity__ReviewProjectCost_ extends PageObjectBase
 		testReport.appendtestData(overallTestData);
 		testReport.closeStepTable();
 		testReport.closeTestHTML(overallTestData);
-		driver.close();
+		//driver.close();
 		try {
 			testReport.writeTestReporthtml(overallTestData, "Node_Activity__ReviewProjectCost_");
 		} catch (IOException e) {

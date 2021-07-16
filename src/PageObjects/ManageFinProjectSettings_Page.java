@@ -93,7 +93,7 @@ public void click_AttachmentEdit_button(){
 		AttachmentEdit_button.click();
 }
 
-@FindBy(how= How.XPATH, using = "//*[contains(@id,'P40:1:AT1:AT2:_ATp:create::icon')]")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'P40:1:AT1:_ATp:create::icon')]")
 	public static WebElement AddTeamMember_button;
 
 public void verify_AddTeamMember_button_Status(String data){

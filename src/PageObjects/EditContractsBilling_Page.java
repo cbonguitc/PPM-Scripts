@@ -9,7 +9,7 @@ import utilities.WebController;
 import utilities.PageObjectBase;
 @SuppressWarnings("deprecation")
 public class EditContractsBilling_Page extends PageObjectBase{
-@FindBy(how= How.XPATH, using = "//a[contains(@id,'0:AT2:_ATp:table1:0:cl1')]")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'AT2:_ATp:table1:0:cl1')]")
 	public static WebElement BillPlansT_M_BP_hyperlink;
 
 public void verify_BillPlansT_M_BP_hyperlink_Status(String data){

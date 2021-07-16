@@ -290,8 +290,8 @@ public class Node_Activity__BaselineProjectPlan_ extends PageObjectBase
 	setbaselineforprojectplan_page_init.click_Submit_button();
 	Thread.sleep(5000);
 	Thread.sleep(5000);
-	//driver.findElement(By.xpath("//*[contains(@id, 'msgD::ok')]")).click();// Confirmation OK
-	driver.findElement(By.xpath("//*[contains(@id, 'msgD::ok')]")).click();
+
+	driver.findElement(By.xpath("//*[contains(@id, 'pt1:ap1:msgD::ok')]")).click();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__BaselineProjectPlan_","Step_22");
 	}
 	@DataProvider(name = "TestData")

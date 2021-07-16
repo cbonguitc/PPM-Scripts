@@ -307,7 +307,7 @@ public class Move_from_Event__Event_Node_5__to_Activity__AddTeamMembers_ extends
 		testReport.appendtestData(overallTestData);
 		testReport.closeStepTable();
 		testReport.closeTestHTML(overallTestData);
-		driver.close();
+		//driver.close();
 		try {
 			testReport.writeTestReporthtml(overallTestData, "Move_from_Event__Event_Node_5__to_Activity__AddTeamMembers_");
 		} catch (IOException e) {

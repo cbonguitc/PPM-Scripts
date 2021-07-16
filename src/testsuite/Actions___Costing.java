@@ -223,9 +223,9 @@ public class Actions___Costing extends PageObjectBase
 
 	testReport.fillTableStep("Step 13", "Fill Search form ManageProjectCosts screen");
 	Thread.sleep(9000);
-	manageprojectcosts_page_init.set_ProjectName_textbox(Step_13_ProjectName_textbox_TEXTBOX);
+	//manageprojectcosts_page_init.set_ProjectName_textbox(Step_13_ProjectName_textbox_TEXTBOX);
 	manageprojectcosts_page_init.set_ProjectNumber_textbox(Step_13_ProjectNumber_textbox_TEXTBOX);
-	manageprojectcosts_page_init.set_ExpenditureOrg_textbox(Step_13_ExpenditureOrg_textbox_TEXTBOX);
+	//manageprojectcosts_page_init.set_ExpenditureOrg_textbox(Step_13_ExpenditureOrg_textbox_TEXTBOX);
 	getScreenshot(driver,Configurations.screenshotLocation , "Actions___Costing","Step_13");
 
 	Reporter.log("Step - 14- click SearchBtn button ManageProjectCosts screen");
@@ -272,7 +272,7 @@ public class Actions___Costing extends PageObjectBase
 	}
 	@DataProvider(name = "TestData")
 	public Object[][] getData() {
-	return DataUtil.getDataFromSpreadSheet("TestData.xlsx", "TCID_9");
+	return DataUtil.getDataFromSpreadSheet("TestData.xlsx", "TCID_27");
 }
 	@AfterTest
 	public void export(){

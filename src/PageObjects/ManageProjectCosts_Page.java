@@ -145,7 +145,7 @@ public void click_SearchBtn_button(){
 		SearchBtn_button.click();
 }
 
-@FindBy(how= How.XPATH, using = "//*[@id=\"_FOpt1:_FOr1:0:_FONSr2:0:MAt2:0:mei_panel1:AT1:_ATp:table1:0:mylink\"]/span")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'AT1:_ATp:table1:0:mylink')]")
 	public static WebElement TransactionNum_hyperlink;
 
 public void verify_TransactionNum_hyperlink_Status(String data){

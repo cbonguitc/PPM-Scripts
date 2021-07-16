@@ -206,7 +206,7 @@ public void click_Save_button(){
 		Save_button.click();
 }
 
-@FindBy(how= How.XPATH, using = "//td[contains(text(),'Validate')]")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'HomeApplicationPanel:commandMenuItem19')]")
 	public static WebElement Validate_button;
 
 public void verify_Validate_button_Status(String data){

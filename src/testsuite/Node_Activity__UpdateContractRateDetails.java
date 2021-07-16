@@ -2,6 +2,8 @@ package testsuite;
 import org.testng.annotations.Test;
 import PageObjects.*;
 import utilities.PageObjectBase;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Configurations;
 import org.w3c.dom.Document;
@@ -236,7 +238,7 @@ public class Node_Activity__UpdateContractRateDetails extends PageObjectBase
 
 	testReport.fillTableStep("Step 23", "click PRAddBtn button EditContracts EditBillPlan screen SchedulesandOverrides form");
 	Thread.sleep(5000);
-	editcontracts_editbillplan_page_init.click_PRAddBtn_button();
+	//editcontracts_editbillplan_page_init.click_PRAddBtn_button();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateContractRateDetails","Step_23");
 
 	Reporter.log("Step - 24- Fill SchedulesandOverrides form EditContracts EditBillPlan screen");
@@ -261,7 +263,8 @@ public class Node_Activity__UpdateContractRateDetails extends PageObjectBase
 
 	testReport.fillTableStep("Step 25", "click Save button EditContracts EditBillPlan screen");
 	Thread.sleep(5000);
-	editcontracts_editbillplan_page_init.click_Save_button();
+	//editcontracts_editbillplan_page_init.click_Save_button();
+	driver.findElement(By.xpath("//*[contains(@id,'SPsv2')]")).click();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateContractRateDetails","Step_25");
 	}
 	@DataProvider(name = "TestData")

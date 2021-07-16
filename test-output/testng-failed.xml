@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="testsuite.Node_Activity__UpdateContractRateDetails">
+      <class name="testsuite.Node_Activity__ManageProjectBudget_">
         <methods>
-          <include name="export"/>
-          <include name="test" invocation-numbers="1 2 3"/>
+          <include name="test" invocation-numbers="0"/>
           <include name="getDeviceDriver"/>
+          <include name="export"/>
         </methods>
-      </class> <!-- testsuite.Node_Activity__UpdateContractRateDetails -->
+      </class> <!-- testsuite.Node_Activity__ManageProjectBudget_ -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

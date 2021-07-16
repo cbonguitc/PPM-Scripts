@@ -245,7 +245,7 @@ public class Node_Activity__CreateAccounting_ extends PageObjectBase
 		testReport.appendtestData(overallTestData);
 		testReport.closeStepTable();
 		testReport.closeTestHTML(overallTestData);
-		driver.close();
+		//driver.close();
 		try {
 			testReport.writeTestReporthtml(overallTestData, "Node_Activity__CreateAccounting_");
 		} catch (IOException e) {

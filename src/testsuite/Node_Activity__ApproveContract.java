@@ -201,7 +201,7 @@ public class Node_Activity__ApproveContract extends PageObjectBase
 	Thread.sleep(4000);
 	driver.findElement(By.xpath("//input[contains(@id,'pt_r1:0:inputDate2::content')]")).clear();
 	Thread.sleep(5000);
-	driver.findElement(By.xpath("//input[contains(@id,'pt_r1:0:inputDate2::content')]")).sendKeys("06/30/21");
+	driver.findElement(By.xpath("//input[contains(@id,'pt_r1:0:inputDate2::content')]")).sendKeys("7/7/21");
 	Thread.sleep(5000);
 	editcontractsoverview_page_init.set_AmendmentEffectiveDate_textbox(Step_17_AmendmentEffectiveDate_textbox_TEXTBOX);
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__ApproveContract","Step_17");

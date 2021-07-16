@@ -227,7 +227,7 @@ public class Node_Activity__AmendingTheContract extends PageObjectBase
 	driver.findElement(By.xpath("//input[contains(@id,'pt_r1:0:inputDate2::content')]")).clear();
 	Thread.sleep(5000);
 	//setElementText(By.xpath("//input[contains(@id,'pt_r1:0:inputDate2::content')]"), Step_17_EndDate_textbox_TEXTBOX);
-	driver.findElement(By.xpath("//input[contains(@id,'pt_r1:0:inputDate2::content')]")).sendKeys("06/30/21");
+	driver.findElement(By.xpath("//input[contains(@id,'pt_r1:0:inputDate2::content')]")).sendKeys("7/7/21");
 	Thread.sleep(5000);
 	editcontractsoverview_page_init.set_AmendmentEffectiveDate_textbox(Step_19_AmendmentEffectiveDate_textbox_TEXTBOX);
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__AmendingTheContract","Step_19");
@@ -240,38 +240,40 @@ public class Node_Activity__AmendingTheContract extends PageObjectBase
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__AmendingTheContract","Step_20");
 
 	Reporter.log("Step - 21- click ActionsDrpDwn button EditContract xxxSelected screen");
-	Thread.sleep(4000);
+	Thread.sleep(5000);
 	testReport.fillTableStep("Step 21", "click ActionsDrpDwn button EditContract xxxSelected screen");
 
 	editcontract_xxxselected_page_init.click_ActionsDrpDwn_button();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__AmendingTheContract","Step_21");
 
 	Reporter.log("Step - 22- click Validate button EditContract xxxSelected screen");
-	Thread.sleep(4000);
+	Thread.sleep(5000);
 	testReport.fillTableStep("Step 22", "click Validate button EditContract xxxSelected screen");
 
 	editcontract_xxxselected_page_init.click_Validate_button();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__AmendingTheContract","Step_22");
 	Thread.sleep(5000);
-	driver.findElement(By.xpath("//div[@id='_FOpt1:_FOr1:0:_FONSr2:0:MAnt2:2:pt1:pt_r1:1:AP1:SPb']")).click();
+	driver.findElement(By.xpath("//*[contains(@id, 'pt1:pt_r1:1:AP1:SPb')]")).click();
 	Reporter.log("Step - 23- click ActionsDrpDwn button EditContract xxxSelected screen");
-	Thread.sleep(4000);
+	Thread.sleep(5000);
 	testReport.fillTableStep("Step 23", "click ActionsDrpDwn button EditContract xxxSelected screen");
 
 	editcontract_xxxselected_page_init.click_ActionsDrpDwn_button();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__AmendingTheContract","Step_23");
 
 	Reporter.log("Step - 24- click SubmitforApproval button EditContract xxxSelected screen");
-	Thread.sleep(4000);
+	Thread.sleep(5000);
 	testReport.fillTableStep("Step 24", "click SubmitforApproval button EditContract xxxSelected screen");
 
 	editcontract_xxxselected_page_init.click_SubmitforApproval_button();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__AmendingTheContract","Step_24");
 
 	Reporter.log("Step - 25- click Submit button EditContract xxxSelected screen");
-	Thread.sleep(4000);
+	Thread.sleep(5000);
 	testReport.fillTableStep("Step 25", "click Submit button EditContract xxxSelected screen");
 
+	editcontract_xxxselected_page_init.click_Submit_button();
+	Thread.sleep(8000);
 	editcontract_xxxselected_page_init.click_Submit_button();
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__AmendingTheContract","Step_25");
 	}

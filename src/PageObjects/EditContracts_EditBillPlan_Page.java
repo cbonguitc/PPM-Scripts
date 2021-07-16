@@ -37,7 +37,7 @@ public void click__hyperlink(){
 		_hyperlink.click();
 }
 
-@FindBy(how= How.XPATH, using = "//*[@id=\"_FOpt1:_FOr1:0:_FONSr2:0:MAnt2:2:pt1:pt_r1:1:ap1:pd_showDetailItem3::disAcr\"]")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'ap1:pd_showDetailItem3::disAcr')]")
 	public static WebElement SchedulesandOverrides_hyperlink;
 
 public void verify_SchedulesandOverrides_hyperlink_Status(String data){
@@ -337,7 +337,7 @@ public void set_JobNameOverride_textbox(String data){
 		JobNameOverride_textbox.sendKeys(data);
 }
 
-@FindBy(how= How.XPATH, using = "//a[contains(@id,'sdh10')]")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'ap1:sdh12::_afrDscl')]")
 	public static WebElement ExpandJobAssignmentOverrides__button;
 
 public void verify_ExpandJobAssignmentOverrides__button_Status(String data){
@@ -645,7 +645,7 @@ public void set_JAContractLineNumber_textbox(String data){
 		JAContractLineNumber_textbox.sendKeys(data);
 }
 
-@FindBy(how= How.XPATH, using = "//*[contains(@id,'SPsv2')]")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'APsv2')]")
 	public static WebElement Save_button;
 
 public void verify_Save_button_Status(String data){

@@ -20,7 +20,7 @@ import utilities.DataUtil;
 
 /** Conformiq generated test case
 	Node_Activity__UpdateProjectDetails_
-*/
+ */
 public class Node_Activity__UpdateProjectDetails_ extends PageObjectBase
 {
 
@@ -39,281 +39,281 @@ public class Node_Activity__UpdateProjectDetails_ extends PageObjectBase
 
 	{
 
-	VerifyMessage_Page verifymessage_page_init=PageFactory.initElements(driver, VerifyMessage_Page.class);
+		VerifyMessage_Page verifymessage_page_init=PageFactory.initElements(driver, VerifyMessage_Page.class);
 
-	LaunchURL_Page launchurl_page_init=PageFactory.initElements(driver, LaunchURL_Page.class);
+		LaunchURL_Page launchurl_page_init=PageFactory.initElements(driver, LaunchURL_Page.class);
 
-	Msg__1__Page msg__1__page_init=PageFactory.initElements(driver, Msg__1__Page.class);
+		Msg__1__Page msg__1__page_init=PageFactory.initElements(driver, Msg__1__Page.class);
 
-	SignInPage_Page signinpage_page_init=PageFactory.initElements(driver, SignInPage_Page.class);
+		SignInPage_Page signinpage_page_init=PageFactory.initElements(driver, SignInPage_Page.class);
 
-	HomePage_Page homepage_page_init=PageFactory.initElements(driver, HomePage_Page.class);
+		HomePage_Page homepage_page_init=PageFactory.initElements(driver, HomePage_Page.class);
 
-	CostsTasks_Page coststasks_page_init=PageFactory.initElements(driver, CostsTasks_Page.class);
+		CostsTasks_Page coststasks_page_init=PageFactory.initElements(driver, CostsTasks_Page.class);
 
-	ManageAccountingPeriods_Page manageaccountingperiods_page_init=PageFactory.initElements(driver, ManageAccountingPeriods_Page.class);
+		ManageAccountingPeriods_Page manageaccountingperiods_page_init=PageFactory.initElements(driver, ManageAccountingPeriods_Page.class);
 
-	Confirmation_Page confirmation_page_init=PageFactory.initElements(driver, Confirmation_Page.class);
+		Confirmation_Page confirmation_page_init=PageFactory.initElements(driver, Confirmation_Page.class);
 
-	ImportCosts_Page importcosts_page_init=PageFactory.initElements(driver, ImportCosts_Page.class);
+		ImportCosts_Page importcosts_page_init=PageFactory.initElements(driver, ImportCosts_Page.class);
 
-	CostsOverview_Page costsoverview_page_init=PageFactory.initElements(driver, CostsOverview_Page.class);
+		CostsOverview_Page costsoverview_page_init=PageFactory.initElements(driver, CostsOverview_Page.class);
 
-	ManageProjectCosts_Page manageprojectcosts_page_init=PageFactory.initElements(driver, ManageProjectCosts_Page.class);
+		ManageProjectCosts_Page manageprojectcosts_page_init=PageFactory.initElements(driver, ManageProjectCosts_Page.class);
 
-	ExpenditureItem_Page expenditureitem_page_init=PageFactory.initElements(driver, ExpenditureItem_Page.class);
+		ExpenditureItem_Page expenditureitem_page_init=PageFactory.initElements(driver, ExpenditureItem_Page.class);
 
-	TransferExpenditureItem_Page transferexpenditureitem_page_init=PageFactory.initElements(driver, TransferExpenditureItem_Page.class);
+		TransferExpenditureItem_Page transferexpenditureitem_page_init=PageFactory.initElements(driver, TransferExpenditureItem_Page.class);
 
-	CreateAccounting_Page createaccounting_page_init=PageFactory.initElements(driver, CreateAccounting_Page.class);
+		CreateAccounting_Page createaccounting_page_init=PageFactory.initElements(driver, CreateAccounting_Page.class);
 
-	ManageUnprocessedCosts_Page manageunprocessedcosts_page_init=PageFactory.initElements(driver, ManageUnprocessedCosts_Page.class);
+		ManageUnprocessedCosts_Page manageunprocessedcosts_page_init=PageFactory.initElements(driver, ManageUnprocessedCosts_Page.class);
 
-	EditTransaction_Page edittransaction_page_init=PageFactory.initElements(driver, EditTransaction_Page.class);
+		EditTransaction_Page edittransaction_page_init=PageFactory.initElements(driver, EditTransaction_Page.class);
 
-	CaptureCosts_Page capturecosts_page_init=PageFactory.initElements(driver, CaptureCosts_Page.class);
+		CaptureCosts_Page capturecosts_page_init=PageFactory.initElements(driver, CaptureCosts_Page.class);
 
-	ManageProjectPlan_Page manageprojectplan_page_init=PageFactory.initElements(driver, ManageProjectPlan_Page.class);
+		ManageProjectPlan_Page manageprojectplan_page_init=PageFactory.initElements(driver, ManageProjectPlan_Page.class);
 
-	ManageProjectPlanTasks_Page manageprojectplantasks_page_init=PageFactory.initElements(driver, ManageProjectPlanTasks_Page.class);
+		ManageProjectPlanTasks_Page manageprojectplantasks_page_init=PageFactory.initElements(driver, ManageProjectPlanTasks_Page.class);
 
-	PFMMyProjects_Page pfmmyprojects_page_init=PageFactory.initElements(driver, PFMMyProjects_Page.class);
+		PFMMyProjects_Page pfmmyprojects_page_init=PageFactory.initElements(driver, PFMMyProjects_Page.class);
 
-	PFMMyProjectsTasks_Page pfmmyprojectstasks_page_init=PageFactory.initElements(driver, PFMMyProjectsTasks_Page.class);
+		PFMMyProjectsTasks_Page pfmmyprojectstasks_page_init=PageFactory.initElements(driver, PFMMyProjectsTasks_Page.class);
 
-	CreateProjects_Page createprojects_page_init=PageFactory.initElements(driver, CreateProjects_Page.class);
+		CreateProjects_Page createprojects_page_init=PageFactory.initElements(driver, CreateProjects_Page.class);
 
-	ProjectOverview_Page projectoverview_page_init=PageFactory.initElements(driver, ProjectOverview_Page.class);
+		ProjectOverview_Page projectoverview_page_init=PageFactory.initElements(driver, ProjectOverview_Page.class);
 
-	ProjectOverviewTasks_Page projectoverviewtasks_page_init=PageFactory.initElements(driver, ProjectOverviewTasks_Page.class);
+		ProjectOverviewTasks_Page projectoverviewtasks_page_init=PageFactory.initElements(driver, ProjectOverviewTasks_Page.class);
 
-	ManageFinProjectSettings_Page managefinprojectsettings_page_init=PageFactory.initElements(driver, ManageFinProjectSettings_Page.class);
+		ManageFinProjectSettings_Page managefinprojectsettings_page_init=PageFactory.initElements(driver, ManageFinProjectSettings_Page.class);
 
-	EditBasicInfo_Page editbasicinfo_page_init=PageFactory.initElements(driver, EditBasicInfo_Page.class);
+		EditBasicInfo_Page editbasicinfo_page_init=PageFactory.initElements(driver, EditBasicInfo_Page.class);
 
-	Attchments_Page attchments_page_init=PageFactory.initElements(driver, Attchments_Page.class);
+		Attchments_Page attchments_page_init=PageFactory.initElements(driver, Attchments_Page.class);
 
-	Open_Page open_page_init=PageFactory.initElements(driver, Open_Page.class);
+		Open_Page open_page_init=PageFactory.initElements(driver, Open_Page.class);
 
-	AddTeamMembers_Page addteammembers_page_init=PageFactory.initElements(driver, AddTeamMembers_Page.class);
+		AddTeamMembers_Page addteammembers_page_init=PageFactory.initElements(driver, AddTeamMembers_Page.class);
 
-	ChangeProjectStatus_Page changeprojectstatus_page_init=PageFactory.initElements(driver, ChangeProjectStatus_Page.class);
+		ChangeProjectStatus_Page changeprojectstatus_page_init=PageFactory.initElements(driver, ChangeProjectStatus_Page.class);
 
-	EditProjectClassification_Page editprojectclassification_page_init=PageFactory.initElements(driver, EditProjectClassification_Page.class);
+		EditProjectClassification_Page editprojectclassification_page_init=PageFactory.initElements(driver, EditProjectClassification_Page.class);
 
-	ManageFinProjectPlan_Page managefinprojectplan_page_init=PageFactory.initElements(driver, ManageFinProjectPlan_Page.class);
+		ManageFinProjectPlan_Page managefinprojectplan_page_init=PageFactory.initElements(driver, ManageFinProjectPlan_Page.class);
 
-	EditTaskDetails_Page edittaskdetails_page_init=PageFactory.initElements(driver, EditTaskDetails_Page.class);
+		EditTaskDetails_Page edittaskdetails_page_init=PageFactory.initElements(driver, EditTaskDetails_Page.class);
 
-	ManageResources_Page manageresources_page_init=PageFactory.initElements(driver, ManageResources_Page.class);
+		ManageResources_Page manageresources_page_init=PageFactory.initElements(driver, ManageResources_Page.class);
 
-	AdditionalInformation_Page additionalinformation_page_init=PageFactory.initElements(driver, AdditionalInformation_Page.class);
+		AdditionalInformation_Page additionalinformation_page_init=PageFactory.initElements(driver, AdditionalInformation_Page.class);
 
-	SetBaselineForProjectPlan_Page setbaselineforprojectplan_page_init=PageFactory.initElements(driver, SetBaselineForProjectPlan_Page.class);
+		SetBaselineForProjectPlan_Page setbaselineforprojectplan_page_init=PageFactory.initElements(driver, SetBaselineForProjectPlan_Page.class);
 
-	ManageBudgetVersions_Page managebudgetversions_page_init=PageFactory.initElements(driver, ManageBudgetVersions_Page.class);
+		ManageBudgetVersions_Page managebudgetversions_page_init=PageFactory.initElements(driver, ManageBudgetVersions_Page.class);
 
-	EditBudget_Page editbudget_page_init=PageFactory.initElements(driver, EditBudget_Page.class);
+		EditBudget_Page editbudget_page_init=PageFactory.initElements(driver, EditBudget_Page.class);
 
-	OpenProject_Page openproject_page_init=PageFactory.initElements(driver, OpenProject_Page.class);
+		OpenProject_Page openproject_page_init=PageFactory.initElements(driver, OpenProject_Page.class);
 
-	PublishProgress_Page publishprogress_page_init=PageFactory.initElements(driver, PublishProgress_Page.class);
+		PublishProgress_Page publishprogress_page_init=PageFactory.initElements(driver, PublishProgress_Page.class);
 
-	CaptureProgress_Page captureprogress_page_init=PageFactory.initElements(driver, CaptureProgress_Page.class);
-	testReport.createTesthtmlHeader(overallTestData);
+		CaptureProgress_Page captureprogress_page_init=PageFactory.initElements(driver, CaptureProgress_Page.class);
+		testReport.createTesthtmlHeader(overallTestData);
 
-	testReport.createHead(overallTestData);
+		testReport.createHead(overallTestData);
 
-	testReport.putLogo(overallTestData);
+		testReport.putLogo(overallTestData);
 
-	float ne = (float) 0.0;
+		float ne = (float) 0.0;
 
-	testReport.generateGeneralInfo(overallTestData, "Node_Activity__UpdateProjectDetails_", "TC_Node_Activity__UpdateProjectDetails_", "",ne);
+		testReport.generateGeneralInfo(overallTestData, "Node_Activity__UpdateProjectDetails_", "TC_Node_Activity__UpdateProjectDetails_", "",ne);
 
-	testReport.createStepHeader();
+		testReport.createStepHeader();
 
-	//External Circumstances
+		//External Circumstances
 
 
-	Reporter.log("Step - 1- Perform LaunchURL Action");
+		Reporter.log("Step - 1- Perform LaunchURL Action");
 
-	testReport.fillTableStep("Step 1", "Perform LaunchURL Action");
+		testReport.fillTableStep("Step 1", "Perform LaunchURL Action");
 
-	launchurl_page_init.enter_URL_field(Step_1_URL_FIELD);
+		launchurl_page_init.enter_URL_field(Step_1_URL_FIELD);
 
 
-	Reporter.log("Step - 2- verify SignInPage screen");
+		Reporter.log("Step - 2- verify SignInPage screen");
 
-	testReport.fillTableStep("Step 2", "verify SignInPage screen");
+		testReport.fillTableStep("Step 2", "verify SignInPage screen");
 
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_2");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_2");
 
-	Reporter.log("Step - 3- Fill SigninPage form SignInPage screen");
+		Reporter.log("Step - 3- Fill SigninPage form SignInPage screen");
 
-	testReport.fillTableStep("Step 3", "Fill SigninPage form SignInPage screen");
+		testReport.fillTableStep("Step 3", "Fill SigninPage form SignInPage screen");
 
-	signinpage_page_init.set_UserId_textbox(Step_3_UserId_textbox_TEXTBOX);
-	signinpage_page_init.set_Password_textbox(Step_3_Password_textbox_TEXTBOX);
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_3");
+		signinpage_page_init.set_UserId_textbox(Step_3_UserId_textbox_TEXTBOX);
+		signinpage_page_init.set_Password_textbox(Step_3_Password_textbox_TEXTBOX);
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_3");
 
-	Reporter.log("Step - 4- click SignIn button SignInPage screen");
+		Reporter.log("Step - 4- click SignIn button SignInPage screen");
 
-	testReport.fillTableStep("Step 4", "click SignIn button SignInPage screen");
+		testReport.fillTableStep("Step 4", "click SignIn button SignInPage screen");
 
-	signinpage_page_init.click_SignIn_button();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_4");
+		signinpage_page_init.click_SignIn_button();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_4");
 
-	Reporter.log("Step - 5- verify HomePage screen");
+		Reporter.log("Step - 5- verify HomePage screen");
 
-	testReport.fillTableStep("Step 5", "verify HomePage screen");
+		testReport.fillTableStep("Step 5", "verify HomePage screen");
 
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_5");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_5");
 
-	Reporter.log("Step - 6- click Navigator hyperlink HomePage screen");
+		Reporter.log("Step - 6- click Navigator hyperlink HomePage screen");
 
-	testReport.fillTableStep("Step 6", "click Navigator hyperlink HomePage screen");
+		testReport.fillTableStep("Step 6", "click Navigator hyperlink HomePage screen");
 
-	homepage_page_init.click_Navigator_hyperlink();
-	Thread.sleep(5000);
-	homepage_page_init.click_Show_More_hyperlink();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_6");
+		homepage_page_init.click_Navigator_hyperlink();
+		Thread.sleep(5000);
+		homepage_page_init.click_Show_More_hyperlink();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_6");
 
-	Reporter.log("Step - 7- click ProjectFinancialManagement hyperlink HomePage screen");
+		Reporter.log("Step - 7- click ProjectFinancialManagement hyperlink HomePage screen");
 
-	testReport.fillTableStep("Step 7", "click ProjectFinancialManagement hyperlink HomePage screen");
-	Thread.sleep(5000);
-	homepage_page_init.click_ProjectFinancialManagement_hyperlink();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_7");
+		testReport.fillTableStep("Step 7", "click ProjectFinancialManagement hyperlink HomePage screen");
+		Thread.sleep(5000);
+		homepage_page_init.click_ProjectFinancialManagement_hyperlink();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_7");
 
-	Reporter.log("Step - 8- verify PFMMyProjects screen");
+		Reporter.log("Step - 8- verify PFMMyProjects screen");
 
-	testReport.fillTableStep("Step 8", "verify PFMMyProjects screen");
+		testReport.fillTableStep("Step 8", "verify PFMMyProjects screen");
 
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_8");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_8");
 
-	Reporter.log("Step - 9- click SearchExpand button PFMMyProjects screen");
+		Reporter.log("Step - 9- click SearchExpand button PFMMyProjects screen");
 
-	testReport.fillTableStep("Step 9", "click SearchExpand button PFMMyProjects screen");
-	Thread.sleep(5000);
-	pfmmyprojects_page_init.click_SearchExpand_button();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_9");
+		testReport.fillTableStep("Step 9", "click SearchExpand button PFMMyProjects screen");
+		Thread.sleep(5000);
+		pfmmyprojects_page_init.click_SearchExpand_button();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_9");
 
-	Reporter.log("Step - 10- Fill Search form PFMMyProjects screen");
+		Reporter.log("Step - 10- Fill Search form PFMMyProjects screen");
 
-	testReport.fillTableStep("Step 10", "Fill Search form PFMMyProjects screen");
-	Thread.sleep(5000);
-	pfmmyprojects_page_init.set_ProjectNumber_textbox(Step_10_ProjectNumber_textbox_TEXTBOX);
-	pfmmyprojects_page_init.set_TeamMember_textbox(Step_10_TeamMember_textbox_TEXTBOX);
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_10");
+		testReport.fillTableStep("Step 10", "Fill Search form PFMMyProjects screen");
+		Thread.sleep(5000);
+		//pfmmyprojects_page_init.set_ProjectNumber_textbox(Step_10_ProjectNumber_textbox_TEXTBOX);
+		pfmmyprojects_page_init.set_TeamMember_textbox(Step_10_TeamMember_textbox_TEXTBOX);
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_10");
 
-	Reporter.log("Step - 11- click Search button PFMMyProjects screen");
+		Reporter.log("Step - 11- click Search button PFMMyProjects screen");
 
-	testReport.fillTableStep("Step 11", "click Search button PFMMyProjects screen");
+		testReport.fillTableStep("Step 11", "click Search button PFMMyProjects screen");
 
-	pfmmyprojects_page_init.click_Search_button();
-	Thread.sleep(10000);
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_11");
+		pfmmyprojects_page_init.click_Search_button();
+		Thread.sleep(10000);
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_11");
 
-	Reporter.log("Step - 12- click ProjectNameLink hyperlink PFMMyProjects screen");
+		Reporter.log("Step - 12- click ProjectNameLink hyperlink PFMMyProjects screen");
 
-	testReport.fillTableStep("Step 12", "click ProjectNameLink hyperlink PFMMyProjects screen");
+		testReport.fillTableStep("Step 12", "click ProjectNameLink hyperlink PFMMyProjects screen");
 
-	pfmmyprojects_page_init.click_ProjectNameLink_hyperlink();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_12");
+		pfmmyprojects_page_init.click_ProjectNameLink_hyperlink();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_12");
 
-	Reporter.log("Step - 13- verify ProjectOverview screen");
+		Reporter.log("Step - 13- verify ProjectOverview screen");
 
-	testReport.fillTableStep("Step 13", "verify ProjectOverview screen");
+		testReport.fillTableStep("Step 13", "verify ProjectOverview screen");
 
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_13");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_13");
 
-	Reporter.log("Step - 14- click Tasks button ProjectOverview screen");
+		Reporter.log("Step - 14- click Tasks button ProjectOverview screen");
 
-	testReport.fillTableStep("Step 14", "click Tasks button ProjectOverview screen");
-	Thread.sleep(5000);
-	//driver.findElement(By.cssSelector(".x1mm")).click();
-	//projectoverview_page_init.click_Tasks_button();
-	driver.findElement(By.xpath("//*[contains(@id,'sdi2::icon')]")).click(); //Tasks
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_14");
+		testReport.fillTableStep("Step 14", "click Tasks button ProjectOverview screen");
+		Thread.sleep(5000);
+		//driver.findElement(By.cssSelector(".x1mm")).click();
+		//projectoverview_page_init.click_Tasks_button();
+		driver.findElement(By.xpath("//*[contains(@id,'sdi2::icon')]")).click(); //Tasks
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_14");
 
-	Reporter.log("Step - 15- verify ProjectOverviewTasks popup");
+		Reporter.log("Step - 15- verify ProjectOverviewTasks popup");
 
-	testReport.fillTableStep("Step 15", "verify ProjectOverviewTasks popup");
+		testReport.fillTableStep("Step 15", "verify ProjectOverviewTasks popup");
 
-	//projectoverviewtasks_page_init.verify_Text("[Don't Care]");
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_15");
+		//projectoverviewtasks_page_init.verify_Text("[Don't Care]");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_15");
 
-	Reporter.log("Step - 16- click ManageFinProjectSettings hyperlink ProjectOverviewTasks popup");
+		Reporter.log("Step - 16- click ManageFinProjectSettings hyperlink ProjectOverviewTasks popup");
 
-	testReport.fillTableStep("Step 16", "click ManageFinProjectSettings hyperlink ProjectOverviewTasks popup");
-	Thread.sleep(5000);
-	projectoverviewtasks_page_init.click_ManageFinProjectSettings_hyperlink();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_16");
+		testReport.fillTableStep("Step 16", "click ManageFinProjectSettings hyperlink ProjectOverviewTasks popup");
+		Thread.sleep(5000);
+		projectoverviewtasks_page_init.click_ManageFinProjectSettings_hyperlink();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_16");
 
-	Reporter.log("Step - 17- verify ManageFinProjectSettings screen");
+		Reporter.log("Step - 17- verify ManageFinProjectSettings screen");
 
-	testReport.fillTableStep("Step 17", "verify ManageFinProjectSettings screen");
+		testReport.fillTableStep("Step 17", "verify ManageFinProjectSettings screen");
 
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_17");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_17");
 
-	Reporter.log("Step - 18- click BasicInfoEdit button ManageFinProjectSettings screen");
+		Reporter.log("Step - 18- click BasicInfoEdit button ManageFinProjectSettings screen");
 
-	testReport.fillTableStep("Step 18", "click BasicInfoEdit button ManageFinProjectSettings screen");
-	Thread.sleep(5000);
-	managefinprojectsettings_page_init.click_BasicInfoEdit_button();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_18");
+		testReport.fillTableStep("Step 18", "click BasicInfoEdit button ManageFinProjectSettings screen");
+		Thread.sleep(5000);
+		managefinprojectsettings_page_init.click_BasicInfoEdit_button();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_18");
 
-	Reporter.log("Step - 19- verify EditBasicInfo popup");
+		Reporter.log("Step - 19- verify EditBasicInfo popup");
 
-	testReport.fillTableStep("Step 19", "verify EditBasicInfo popup");
+		testReport.fillTableStep("Step 19", "verify EditBasicInfo popup");
 
-	//editbasicinfo_page_init.verify_Text("[Don't Care]");
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_19");
+		//editbasicinfo_page_init.verify_Text("[Don't Care]");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_19");
 
-	Reporter.log("Step - 20- Fill EditBasicInfo form EditBasicInfo popup");
+		Reporter.log("Step - 20- Fill EditBasicInfo form EditBasicInfo popup");
 
-	testReport.fillTableStep("Step 20", "Fill EditBasicInfo form EditBasicInfo popup");
-	Thread.sleep(5000);
-	editbasicinfo_page_init.select_ServiceType_dropdown(Step_20_ServiceType_dropdown_DROPDOWN);
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_20");
+		testReport.fillTableStep("Step 20", "Fill EditBasicInfo form EditBasicInfo popup");
+		Thread.sleep(5000);
+		editbasicinfo_page_init.select_ServiceType_dropdown(Step_20_ServiceType_dropdown_DROPDOWN);
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_20");
 
-	Reporter.log("Step - 21- click SaveAndClose button EditBasicInfo popup");
+		Reporter.log("Step - 21- click SaveAndClose button EditBasicInfo popup");
 
-	testReport.fillTableStep("Step 21", "click SaveAndClose button EditBasicInfo popup");
-	
-	editbasicinfo_page_init.click_SaveAndClose_button();
-	Thread.sleep(10000);
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_21");
+		testReport.fillTableStep("Step 21", "click SaveAndClose button EditBasicInfo popup");
 
-	Reporter.log("Step - 22- click AttachmentEdit button ManageFinProjectSettings screen");
+		editbasicinfo_page_init.click_SaveAndClose_button();
+		Thread.sleep(10000);
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_21");
 
-	testReport.fillTableStep("Step 22", "click AttachmentEdit button ManageFinProjectSettings screen");
-	Thread.sleep(5000);
-	managefinprojectsettings_page_init.click_AttachmentEdit_button();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_22");
+		Reporter.log("Step - 22- click AttachmentEdit button ManageFinProjectSettings screen");
 
-	Reporter.log("Step - 23- verify Attchments popup");
+		testReport.fillTableStep("Step 22", "click AttachmentEdit button ManageFinProjectSettings screen");
+		Thread.sleep(5000);
+		managefinprojectsettings_page_init.click_AttachmentEdit_button();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_22");
 
-	testReport.fillTableStep("Step 23", "verify Attchments popup");
+		Reporter.log("Step - 23- verify Attchments popup");
 
-	//attchments_page_init.verify_Text("[Don't Care]");
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_23");
+		testReport.fillTableStep("Step 23", "verify Attchments popup");
 
-	Reporter.log("Step - 24- click Add button Attchments popup");
+		//attchments_page_init.verify_Text("[Don't Care]");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_23");
 
-	testReport.fillTableStep("Step 24", "click Add button Attchments popup");
-	Thread.sleep(5000);
-	attchments_page_init.click_Add_button();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_24");
+		Reporter.log("Step - 24- click Add button Attchments popup");
 
-	Reporter.log("Step - 25- click ChooseFile button Attchments popup");
+		testReport.fillTableStep("Step 24", "click Add button Attchments popup");
+		Thread.sleep(5000);
+		attchments_page_init.click_Add_button();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_24");
 
-	testReport.fillTableStep("Step 25", "click ChooseFile button Attchments popup");
-	Thread.sleep(5000);
-	//attchments_page_init.click_ChooseFile_button();
-	WebElement ele = driver.findElement(By.xpath("//*[contains(@id,'attachmentTable:0:desktopFile::content')]"));
-	ele.sendKeys("D:\\Test.pdf");
-	System.out.println("File is Uploaded Successfully");
+		Reporter.log("Step - 25- click ChooseFile button Attchments popup");
+
+		testReport.fillTableStep("Step 25", "click ChooseFile button Attchments popup");
+		Thread.sleep(5000);
+		//attchments_page_init.click_ChooseFile_button();
+		WebElement ele = driver.findElement(By.xpath("//*[contains(@id,'attachmentTable:0:desktopFile::content')]"));
+		ele.sendKeys("D:\\Test.pdf");
+		System.out.println("File is Uploaded Successfully");
 		/*
 		 * getScreenshot(driver,Configurations.screenshotLocation ,
 		 * "Node_Activity__UpdateProjectDetails_","Step_25");
@@ -341,87 +341,84 @@ public class Node_Activity__UpdateProjectDetails_ extends PageObjectBase
 		 * getScreenshot(driver,Configurations.screenshotLocation ,
 		 * "Node_Activity__UpdateProjectDetails_","Step_28");
 		 */
-	Reporter.log("Step - 29- click SaveAndClose button Attchments popup");
+		Reporter.log("Step - 29- click SaveAndClose button Attchments popup");
 
-	testReport.fillTableStep("Step 29", "click SaveAndClose button Attchments popup");
-	Thread.sleep(5000);
-	attchments_page_init.click_SaveAndClose_button();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_29");
+		testReport.fillTableStep("Step 29", "click SaveAndClose button Attchments popup");
+		Thread.sleep(5000);
+		attchments_page_init.click_SaveAndClose_button();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_29");
 
-	Reporter.log("Step - 30- click Parties hyperlink ManageFinProjectSettings screen");
+		Reporter.log("Step - 30- click Parties hyperlink ManageFinProjectSettings screen");
 
-	testReport.fillTableStep("Step 30", "click Parties hyperlink ManageFinProjectSettings screen");
-	Thread.sleep(10000);
-	managefinprojectsettings_page_init.click_Parties_hyperlink();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_30");
-	Thread.sleep(5000);
-	driver.findElement(By.xpath("//*[contains(@id,'P40:1:AT1:_ATp:edit::icon')]")).click();
-	Reporter.log("Step - 31- click AddTeamMember button ManageFinProjectSettings screen");
-	Thread.sleep(5000);
-	testReport.fillTableStep("Step 31", "click AddTeamMember button ManageFinProjectSettings screen");
-	Thread.sleep(5000);
-	//managefinprojectsettings_page_init.click_AddTeamMember_button();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_31");
+		testReport.fillTableStep("Step 30", "click Parties hyperlink ManageFinProjectSettings screen");
+		Thread.sleep(10000);
+		managefinprojectsettings_page_init.click_Parties_hyperlink();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_30");
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//*[contains(@id,'P40:1:AT1:_ATp:edit::icon')]")).click();
+		Reporter.log("Step - 31- click AddTeamMember button ManageFinProjectSettings screen");
+		Thread.sleep(5000);
+		testReport.fillTableStep("Step 31", "click AddTeamMember button ManageFinProjectSettings screen");
+		Thread.sleep(5000);
+		//managefinprojectsettings_page_init.click_AddTeamMember_button();
+		Thread.sleep(5000);
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_31");
 
-	Reporter.log("Step - 32- verify AddTeamMembers popup");
+		Reporter.log("Step - 32- verify AddTeamMembers popup");
 
-	testReport.fillTableStep("Step 32", "verify AddTeamMembers popup");
+		testReport.fillTableStep("Step 32", "verify AddTeamMembers popup");
 
-	//addteammembers_page_init.verify_Text("[Don't Care]");
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_32");
+		//addteammembers_page_init.verify_Text("[Don't Care]");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_32");
 
-		/*
-		 * Reporter.log("Step - 33- Fill AddTeamMembers form AddTeamMembers popup");
-		 * 
-		 * testReport.fillTableStep("Step 33",
-		 * "Fill AddTeamMembers form AddTeamMembers popup"); Thread.sleep(5000);
-		 * addteammembers_page_init.set_Person_textbox(Step_33_Person_textbox_TEXTBOX);
-		 * Thread.sleep(5000); clickElement(By.xpath(
-		 * "//*[contains(@id,'projectRoleNameId_csl:sis1:is1::btn')]")); //Click drop
-		 * down Thread.sleep(5000); setElementText(By.xpath(
-		 * "//*[contains(@id,'projectRoleNameId_csl:sis1:is1::btn')]"),
-		 * Step_33_ProjectRole_dropdown_DROPDOWN);
-		 * addteammembers_page_init.set_StartDate_textbox(
-		 * Step_33_StartDate_textbox_TEXTBOX); Thread.sleep(5000);
-		 * //addteammembers_page_init.select_ProjectRole_dropdown(
-		 * Step_33_ProjectRole_dropdown_DROPDOWN);
-		 * 
-		 * Thread.sleep(5000);
-		 */
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_33");
 
-	Reporter.log("Step - 34- click SaveAndClose button AddTeamMembers popup");
+		Reporter.log("Step - 33- Fill AddTeamMembers form AddTeamMembers popup");
 
-	testReport.fillTableStep("Step 34", "click SaveAndClose button AddTeamMembers popup");
-	
-	addteammembers_page_init.click_SaveAndClose_button();
-	Thread.sleep(10000);
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_34");
+		testReport.fillTableStep("Step 33","Fill AddTeamMembers form AddTeamMembers popup"); 
+		Thread.sleep(5000);
+		//addteammembers_page_init.set_Person_textbox(Step_33_Person_textbox_TEXTBOX);
+		//Thread.sleep(5000); clickElement(By.xpath("//*[contains(@id,'projectRoleNameId_csl:sis1:is1::btn')]")); //Click drop down 
+		Thread.sleep(5000); 
+		//setElementText(By.xpath("//*[contains(@id,'projectRoleNameId_csl:sis1:is1::btn')]"), Step_33_ProjectRole_dropdown_DROPDOWN);
+		//addteammembers_page_init.set_StartDate_textbox(Step_33_StartDate_textbox_TEXTBOX); Thread.sleep(5000);
+		//addteammembers_page_init.select_ProjectRole_dropdown(Step_33_ProjectRole_dropdown_DROPDOWN);
 
-	Reporter.log("Step - 35- click Done button ManageFinProjectSettings screen");
+		Thread.sleep(5000);
 
-	testReport.fillTableStep("Step 35", "click Done button ManageFinProjectSettings screen");
-	Thread.sleep(5000);
-	managefinprojectsettings_page_init.click_Done_button();
-	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_35");
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_33");
+
+		Reporter.log("Step - 34- click SaveAndClose button AddTeamMembers popup");
+
+		testReport.fillTableStep("Step 34", "click SaveAndClose button AddTeamMembers popup");
+
+		addteammembers_page_init.click_SaveAndClose_button();
+		Thread.sleep(10000);
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_34");
+
+		Reporter.log("Step - 35- click Done button ManageFinProjectSettings screen");
+
+		testReport.fillTableStep("Step 35", "click Done button ManageFinProjectSettings screen");
+		Thread.sleep(5000);
+		managefinprojectsettings_page_init.click_Done_button();
+		getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__UpdateProjectDetails_","Step_35");
 	}
-	
+
 	private void SetElement(By xpath) {
 		// TODO Auto-generated method stub
-		
+
 	}
 	private void clickElement(By xpath) {
 		// TODO Auto-generated method stub
-		
+
 	}
 	private void setElementText(By xpath, String step_33_ProjectRole_dropdown_DROPDOWN) {
 		// TODO Auto-generated method stub
-		
+
 	}
 	@DataProvider(name = "TestData")
 	public Object[][] getData() {
-	return DataUtil.getDataFromSpreadSheet("TestData.xlsx", "TCID_24");
-}
+		return DataUtil.getDataFromSpreadSheet("TestData.xlsx", "TCID_24");
+	}
 	@AfterTest
 	public void export(){
 		testReport.appendtestData(overallTestData);

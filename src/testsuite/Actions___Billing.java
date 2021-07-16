@@ -221,9 +221,9 @@ public class Actions___Billing extends PageObjectBase
 
 	testReport.fillTableStep("Step 13", "Fill Search form ManageProjectCosts screen");
 	Thread.sleep(5000);
-	manageprojectcosts_page_init.set_ProjectName_textbox(Step_13_ProjectName_textbox_TEXTBOX);
+	//manageprojectcosts_page_init.set_ProjectName_textbox(Step_13_ProjectName_textbox_TEXTBOX);
 	manageprojectcosts_page_init.set_ProjectNumber_textbox(Step_13_ProjectNumber_textbox_TEXTBOX);
-	manageprojectcosts_page_init.set_ExpenditureOrg_textbox(Step_13_ExpenditureOrg_textbox_TEXTBOX);
+	//manageprojectcosts_page_init.set_ExpenditureOrg_textbox(Step_13_ExpenditureOrg_textbox_TEXTBOX);
 	getScreenshot(driver,Configurations.screenshotLocation , "Actions___Billing","Step_13");
 
 	Reporter.log("Step - 14- click SearchBtn button ManageProjectCosts screen");
@@ -251,7 +251,7 @@ public class Actions___Billing extends PageObjectBase
 	Thread.sleep(5000);
 	driver.findElement(By.xpath("//td[contains(text(),'View Accounting')]")).click();
 	Thread.sleep(5000);
-	driver.findElement(By.xpath("//button[@id='_FOd1::msgDlg::cancel']")).click();
+	driver.findElement(By.xpath("//*[contains(@id,'RAdlg8::ok')]")).click();
 	Reporter.log("Step - 16- verify ExpenditureItem screen");
 
 	testReport.fillTableStep("Step 16", "verify ExpenditureItem screen");
@@ -262,27 +262,36 @@ public class Actions___Billing extends PageObjectBase
 
 	testReport.fillTableStep("Step 17", "Fill General form ExpenditureItem screen");
 	Thread.sleep(5000);
-//	driver.findElement(By.linkText("Actions")).click();
-//	//Thread.sleep(2000);
-//	Thread.sleep(5000);
-//	driver.findElement(By.xpath("//tr[contains(@id,'pt1:ap1:pc2:mngMA')]//td[@class='xnw'][contains(text(),'Costing')]")).click();;
-//	Thread.sleep(5000);
-//	driver.findElement(By.xpath("//tr[contains(@id,'pt1:ap1:pc2:taskDA')]//td[@class='xnx'][contains(text(),'Billing')]")).click();
-//	expenditureitem_page_init.select_Actions_dropdown(Step_17_Actions_dropdown_DROPDOWN);
-//	expenditureitem_page_init.select_Costing_dropdown(Step_17_Costing_dropdown_DROPDOWN);
-//	expenditureitem_page_init.select_Billing_dropdown(Step_17_Billing_dropdown_DROPDOWN);
+	driver.findElement(By.linkText("Actions")).click();
+	Thread.sleep(2000);
+	Thread.sleep(5000);
+	driver.findElement(By.xpath("//*[contains(@id,'eidet_panel1:eidet_menu2')]")).click(); //Costing
+	Thread.sleep(5000);
+	driver.findElement(By.xpath("//*[contains(@id,'eidet_panel1:eid_1')]")).click(); //Recalculate Raw Cost Amount
+	Thread.sleep(5000);
+	driver.findElement(By.xpath("//*[contains(@id,'msgDlg::cancel')]")).click();
+	//expenditureitem_page_init.select_Costing_dropdown(Step_17_Costing_dropdown_DROPDOWN);
+	Thread.sleep(5000);
+	driver.findElement(By.linkText("Actions")).click();
+	Thread.sleep(5000);
+	driver.findElement(By.xpath("//*[contains(@id,'eidet_panel1:menu3')]")).click(); //Billing
+	//expenditureitem_page_init.select_Actions_dropdown(Step_17_Actions_dropdown_DROPDOWN);
+	Thread.sleep(5000);
+	driver.findElement(By.xpath("//*[contains(@id,'eidet_panel1:b_cmi4')]")).click(); //Hold Invoice Once
+	//expenditureitem_page_init.select_Billing_dropdown(Step_17_Billing_dropdown_DROPDOWN);
 	getScreenshot(driver,Configurations.screenshotLocation , "Actions___Billing","Step_17");
 
 	Reporter.log("Step - 18- click ExpItemDone button ExpenditureItem screen");
 
 	testReport.fillTableStep("Step 18", "click ExpItemDone button ExpenditureItem screen");
 	Thread.sleep(5000);
-	expenditureitem_page_init.click_ExpItemDone_button();
+	//expenditureitem_page_init.click_ExpItemDone_button();
+	Thread.sleep(5000);
 	getScreenshot(driver,Configurations.screenshotLocation , "Actions___Billing","Step_18");
 	}
 	@DataProvider(name = "TestData")
 	public Object[][] getData() {
-	return DataUtil.getDataFromSpreadSheet("TestData.xlsx", "TCID_10");
+	return DataUtil.getDataFromSpreadSheet("TestData.xlsx", "TCID_26");
 }
 	@AfterTest
 	public void export(){

@@ -9,7 +9,7 @@ import utilities.WebController;
 import utilities.PageObjectBase;
 @SuppressWarnings("deprecation")
 public class ProjectOverview_Page extends PageObjectBase{
-@FindBy(how= How.CSS, using = ".x1mm")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'sdi2::icon')]")
                               
 	public static WebElement Tasks_button;
 

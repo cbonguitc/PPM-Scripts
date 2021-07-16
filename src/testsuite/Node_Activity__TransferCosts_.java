@@ -222,8 +222,8 @@ public class Node_Activity__TransferCosts_ extends PageObjectBase
 	testReport.fillTableStep("Step 13", "Fill Search form ManageProjectCosts screen");
 	Thread.sleep(5000);
 	//manageprojectcosts_page_init.set_ProjectName_textbox(Step_13_ProjectName_textbox_TEXTBOX);
-	//manageprojectcosts_page_init.set_ProjectNumber_textbox(Step_13_ProjectNumber_textbox_TEXTBOX);
-	manageprojectcosts_page_init.set_ExpenditureOrg_textbox(Step_13_ExpenditureOrg_textbox_TEXTBOX);
+	manageprojectcosts_page_init.set_ProjectNumber_textbox(Step_13_ProjectNumber_textbox_TEXTBOX);
+	//manageprojectcosts_page_init.set_ExpenditureOrg_textbox(Step_13_ExpenditureOrg_textbox_TEXTBOX);
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__TransferCosts_","Step_13");
 
 	Reporter.log("Step - 14- click SearchBtn button ManageProjectCosts screen");
@@ -231,6 +231,7 @@ public class Node_Activity__TransferCosts_ extends PageObjectBase
 	testReport.fillTableStep("Step 14", "click SearchBtn button ManageProjectCosts screen");
 	Thread.sleep(5000);
 	manageprojectcosts_page_init.click_SearchBtn_button();
+	Thread.sleep(12000);
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__TransferCosts_","Step_14");
 
 	Reporter.log("Step - 15- click TransactionNum hyperlink ManageProjectCosts screen");
@@ -238,12 +239,11 @@ public class Node_Activity__TransferCosts_ extends PageObjectBase
 	testReport.fillTableStep("Step 15", "click TransactionNum hyperlink ManageProjectCosts screen");
 
 	//manageprojectcosts_page_init.click_TransactionNum_hyperlink();
-	Thread.sleep(5000);
+	
 	driver.findElement(By.xpath("//*[contains(@id,':_ATp:table1:0:mylink')]")).click(); //Select the First row
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__TransferCosts_","Step_15");
-	Thread.sleep(5000);
+	Thread.sleep(8000);
 	driver.findElement(By.xpath("//a[contains(text(),'Actions')]")).click(); //Actions
-	//Thread.sleep(2000);
 	Thread.sleep(5000);
 	driver.findElement(By.xpath("//td[contains(text(),'Costing')]")).click(); //Costing
 	Thread.sleep(5000);
@@ -279,8 +279,9 @@ Thread.sleep(5000);
 	Reporter.log("Step - 20- click Submit button TransferExpenditureItem screen");
 
 	testReport.fillTableStep("Step 20", "click Submit button TransferExpenditureItem screen");
-Thread.sleep(5000);
+	Thread.sleep(5000);
 	transferexpenditureitem_page_init.click_Submit_button();
+	Thread.sleep(5000);
 	getScreenshot(driver,Configurations.screenshotLocation , "Node_Activity__TransferCosts_","Step_20");
 	}
 	@DataProvider(name = "TestData")

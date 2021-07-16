@@ -145,7 +145,7 @@ public void select_ServiceType_dropdown(String data){
 		 dropdown.selectByVisibleText(data);
 }
 
-@FindBy(how= How.XPATH, using = "//*[contains(@id,'ap1:TkTrFl1:0:pt1:ap1:cb2')]")
+@FindBy(how= How.XPATH, using = "//*[contains(@id,'pt1:ap1:APscl2')]")
 	public static WebElement SaveAndClose_button;
 
 public void verify_SaveAndClose_button_Status(String data){

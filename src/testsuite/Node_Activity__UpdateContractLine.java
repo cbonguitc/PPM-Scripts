@@ -292,7 +292,7 @@ public class Node_Activity__UpdateContractLine extends PageObjectBase
 		testReport.appendtestData(overallTestData);
 		testReport.closeStepTable();
 		testReport.closeTestHTML(overallTestData);
-		driver.close();
+		//driver.close();
 		try {
 			testReport.writeTestReporthtml(overallTestData, "Node_Activity__UpdateContractLine");
 		} catch (IOException e) {
