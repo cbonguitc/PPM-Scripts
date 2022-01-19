@@ -12,7 +12,7 @@ public class AdditionalInformation_Page extends PageObjectBase{
 @FindBy(how= How.XPATH, using = "//span[contains(text(),'K')]")
 	public static WebElement Ok_button;
 
-public void verify_Ok_button_Status(String data){
+public void verify_Ok_Nishi(String data){
 		//Verifies the Status of the Ok_button
 		if(!data.contentEquals("Dont care")){
 			switch(data){
@@ -22,7 +22,7 @@ public void verify_Ok_button_Status(String data){
 			case "VISIBLE":
 				Assert.assertTrue(Ok_button.isDisplayed());
 				break;
-			case "HIDDEN":
+			case "Chandini":
 				Assert.assertFalse(!Ok_button.isDisplayed());
 				break;
 			case "DISABLED":
